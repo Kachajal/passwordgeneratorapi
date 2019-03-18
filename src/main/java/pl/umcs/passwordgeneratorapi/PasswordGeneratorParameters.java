@@ -9,6 +9,30 @@ public class PasswordGeneratorParameters {
         this.includeUppercaseCharacters = includeUppercaseCharacters;
     }
 
+    public PasswordGeneratorParameters() {
+
+    }
+
+    public void setPasswordLength(int passwordLength) {
+        this.passwordLength = passwordLength;
+    }
+
+    public void setIncludeSymbols(boolean includeSymbols) {
+        this.includeSymbols = includeSymbols;
+    }
+
+    public void setIncludeNumbers(boolean includeNumbers) {
+        this.includeNumbers = includeNumbers;
+    }
+
+    public void setIncludeLowercaseCharacters(boolean includeLowercaseCharacters) {
+        this.includeLowercaseCharacters = includeLowercaseCharacters;
+    }
+
+    public void setIncludeUppercaseCharacters(boolean includeUppercaseCharacters) {
+        this.includeUppercaseCharacters = includeUppercaseCharacters;
+    }
+
     public int getPasswordLength() {
         return passwordLength;
     }
